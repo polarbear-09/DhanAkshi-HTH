@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future Self Messaging</title>
+    <link rel="stylesheet" href="styles/future-self.css">
+    <script defer src="scripts/future-self.js"></script>
+</head>
+<body>
+    <div class="future-self-container">
+        <header class="future-self-header">
+            <h2>💌 Message to Your Future Self</h2>
+            <button class="back-btn" onclick="window.location.href='dashboard.html'">⬅ Back</button>
+        </header>
+        <div class="message-section">
+            <textarea id="futureMessage" placeholder="Write a message to your future self..."></textarea>
+            <input type="date" id="deliverDate">
+            <button onclick="saveMessage()">📨 Save Message</button>
+        </div>
+        <div class="saved-messages">
+            <h3>📜 Your Scheduled Messages</h3>
+            <ul id="messageList">
+                <li>No messages yet.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

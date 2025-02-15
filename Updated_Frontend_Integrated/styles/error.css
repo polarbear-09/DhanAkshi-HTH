@@ -1,0 +1,55 @@
+/* error.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8d7da;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+.error-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.error-container h1 {
+    font-size: 80px;
+    color: #d9534f;
+    margin: 0;
+}
+.error-container h2 {
+    font-size: 24px;
+    color: #333;
+}
+.error-container p {
+    font-size: 16px;
+    color: #666;
+}
+.error-actions button {
+    background: #d9534f;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.error-actions button:hover {
+    background: #c9302c;
+}
+.error-animation img {
+    width: 200px;
+    animation: float 3s ease-in-out infinite;
+}
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}

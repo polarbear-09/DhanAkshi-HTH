@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error - Page Not Found</title>
+    <link rel="stylesheet" href="styles/error.css">
+    <script defer src="scripts/error.js"></script>
+</head>
+<body>
+    <div class="error-container">
+        <h1>404</h1>
+        <h2>Oops! Page Not Found</h2>
+        <p>It looks like the page you're looking for doesn't exist. Don't worry, you can always go back to safety!</p>
+        
+        <div class="error-actions">
+            <button onclick="window.location.href='dashboard.html'">🏠 Go to Dashboard</button>
+            <button onclick="window.location.reload()">🔄 Refresh</button>
+        </div>
+        
+        <div class="error-animation">
+            <img src="assets/error-illustration.png" alt="Error Illustration" class="animate-error">
+        </div>
+    </div>
+</body>
+</html>

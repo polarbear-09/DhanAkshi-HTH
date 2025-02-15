@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Reports & Insights</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="reports.css">
+    <script defer src="reports.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Chart.js for reports -->
+</head>
+<body>
+
+    <header class="reports-header">
+        <h1>📊 Spending Reports & AI Insights</h1>
+        <p>Analyze your spending habits & optimize your savings!</p>
+    </header>
+
+    <main class="reports-container">
+
+        <!-- Spending Overview Chart -->
+        <section class="chart-section">
+            <h2>💸 Spending Breakdown</h2>
+            <canvas id="spendingChart"></canvas>
+        </section>
+
+        <!-- AI-Generated Saving Tips -->
+        <section class="ai-insights">
+            <h2>🤖 AI-Generated Saving Tips</h2>
+            <p id="savingTips">Loading personalized insights...</p>
+            <button id="refreshTips">🔄 Get New Tip</button>
+        </section>
+
+        <!-- Monthly Budget Progress -->
+        <section class="budget-progress">
+            <h2>📆 Monthly Budget Tracker</h2>
+            <div class="progress-bar">
+                <div id="budgetFill" class="progress-fill"></div>
+            </div>
+            <p>You've used <span id="budgetPercentage">0%</span> of your monthly budget.</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>💡 Track your expenses & save smarter with AI assistance!</p>
+    </footer>
+
+</body>
+</html>

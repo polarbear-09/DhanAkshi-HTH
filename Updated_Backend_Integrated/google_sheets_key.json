@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "dhanakshi-hoh",
+  "private_key_id": "5390dfa813293ab5c1cee948ddb687a7a81098c4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCv/dnjkQ2L6U1U\nSH19pP25JuwnNFYgN9Zpr44KsAuAo92m41EERJ11joy8Ea0XgS6FYDQ95ETcS271\nuJG+oxNF8zQhyXO1kX9EMwhW3SQeXmRJHNSD2RY2T/oYXVJsME36wOnpyz770Aov\n9WPPGkHDw9RCacdXCozhr9J5FWhu4AfOe+RHhvBltzyEKPqNjVcfcAzmLcf1s8qP\nGK7xE9SKenC3uQDR/u980ab8dOUub3saurCFc381fp8Phxt+El+S0scCR3yJjSlC\nD74SDckyWY5l+6OmDL80FhDrsH92qkAESlLOGWxs8jSJUFm1hn4wD6S0S7luhkCp\n6E36Z7K9AgMBAAECggEAA4dRcRCdduqslD4H1hcSxz2Sio6wE2FLOT8919UDxgaD\nES+Jlk5R4eODytmH4OrEJgRxx7Pl9YzFosOamHnojwR7TRoe6csLBDEJv8QbT0iR\nNi4PzLzzhw8/cnGcj3LAfYCUsA1VK/NV4PRIlgRuwSASB2rbhlE91eCSlb7qIx7u\nRRA3ByGpZY9kSS4nImaGnJ10Jk38SAkeCN5Sdr+BkS6AhKLMJPNDdbGQGxFIMaJQ\nnOkd82/2c+nHZvDxpP2aX7tIZCMrMUXr3VhLbNsQHsaf7J9VpxHxknD82+rbgYqB\nWFLe58UY23AVQjrTfZmAnirkOzMMhsK2YUZ0yokNOQKBgQDbIKgQUsAbUCsGlRFS\ncsU3BuPURsPHFaQ6PjWZIjt7ZLPKsP7kUaO5JkrjtDmJPOSYk4sJ/ynEMK22aNkB\no1vybWAnq8VXKL+iWfGMWpF5fTEjx1agGj0FsEJFPh3U5iCeZMld/KqzwI9dnpPl\nlroYpT6vSZGQMx0GCY/xMZMWdwKBgQDNmweiNVMA4GbVlDfvsUC4Ogt828iS/WbU\n5anvza6YIwjykMviGmIlZYYFyhrFv/U2EGVBG4pvD65dBCDvAW8+hJbWAHtDS4t0\nWLIcc5dljzd59nXQCJP7rjCrKSWtNup7Rp8cDEToG0DN5N/3WXEtG3jR8Ogxc6s/\nTfdToR3pawKBgF97emAqfrUoGKd0myivBAp3QR1FfJeqcXZDlz1T8lFRTxqaR2cb\nv9i0u9s+s/d+BioJ2IMRoZRwlbEvPKf/E9iuGkEPEx1ojyBiSuOar1sd1yS8/p0i\n8cYhyK69Y2haoooCZtBCgetzk8T6jX10UUDd+FOPHhOUgigYUJWLwYj/AoGBAKJz\nHFvwb+2gX//ehTewQCePTSZQ7TAeYVJTR6q+Q3XXMKme+Ehkeil8BqGqZu7Z1V/r\nImWH4iAQLr81lOPiqUenMRpS9RFdrgi2T7wlJHjM6JNHxRwiuvG/VprV/vvWCPxv\n9yUNGKCfb9t+O+tOUxrFuvd9tafk8WgqLQF5qo2TAoGAO+Srp1XpgzwdBaWkH6lf\n8OpuBdVpiMSWXtxNAj74Ez0YCw2XzO7GwG/hWLAGI55TkpHtbrux91WMdfimIin1\nnNxezdtB/RUYqM3GFDEA/S0gVrT9YGkFdgD0Pj0EMX1ilXBeNKmio0bHvGa7QetR\noTnXxPONiyHiY1Fj2RzjZ5E=\n-----END PRIVATE KEY-----\n",
+  "client_email": "financial-therapy-db@dhanakshi-hoh.iam.gserviceaccount.com",
+  "client_id": "108328729292296773750",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/financial-therapy-db%40dhanakshi-hoh.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

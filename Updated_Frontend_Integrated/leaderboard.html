@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard & Challenges</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="leaderboard.css">
+    <script defer src="leaderboard.js"></script>
+</head>
+<body>
+
+    <header class="leaderboard-header">
+        <h1>🏆 Spending Challenge Leaderboard</h1>
+        <p>Track your financial discipline & challenge yourself!</p>
+    </header>
+
+    <main class="leaderboard-container">
+        <!-- Current User's Stats -->
+        <section class="user-rank">
+            <h2>Your Rank: <span id="userRank">Loading...</span></h2>
+            <p>🔥 Streak: <span id="userStreak">0</span> days</p>
+        </section>
+
+        <!-- Leaderboard Table -->
+        <section class="leaderboard">
+            <h2>Top Savers 📈</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Name</th>
+                        <th>Streak 🔥</th>
+                        <th>Money Saved 💰</th>
+                    </tr>
+                </thead>
+                <tbody id="leaderboardBody">
+                    <tr><td colspan="4">Loading leaderboard...</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Mystery Financial Challenge -->
+        <section class="challenge">
+            <h2>🎯 Mystery Challenge</h2>
+            <p id="challengeText">Loading new challenge...</p>
+            <button id="newChallenge">Get New Challenge</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>💡 Stay disciplined & rise in the ranks!</p>
+    </footer>
+
+</body>
+</html>

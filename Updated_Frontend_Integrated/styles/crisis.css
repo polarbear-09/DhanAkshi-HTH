@@ -1,0 +1,55 @@
+/* crisis.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffecec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.crisis-container {
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.crisis-header {
+    background: #ff4d4d;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.crisis-content {
+    padding: 20px;
+}
+.crisis-options button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    background: #ff4d4d;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.crisis-options button:hover {
+    background: #cc0000;
+}
+.hidden {
+    display: none;
+    padding: 15px;
+    font-size: 18px;
+    color: #333;
+    background: #fff8dc;
+    border-radius: 5px;
+    margin-top: 10px;
+}

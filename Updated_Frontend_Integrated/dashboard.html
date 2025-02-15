@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Therapy Dashboard</title>
+    <link rel="stylesheet" href="styles/dashboard.css">
+    <script defer src="scripts/dashboard.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/js/all.min.js"></script>
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- Header -->
+        <header class="dashboard-header">
+            <h2>📊 Financial Wellness Dashboard</h2>
+            <button class="logout-btn" onclick="logoutUser()">Logout</button>
+        </header>
+
+        <!-- Crisis Mode Button -->
+        <div class="crisis-mode">
+            <button class="crisis-btn" onclick="window.location.href='crisis.html'">🚨 Activate Crisis Mode</button>
+        </div>
+
+        <!-- Main Dashboard Sections -->
+        <div class="dashboard-sections">
+            <div class="dashboard-card">
+                <h3>🧠 Emotional Spending Score</h3>
+                <p id="spending-score">Loading...</p>
+            </div>
+
+            <div class="dashboard-card">
+                <h3>📈 Real-Time Spending Insights</h3>
+                <canvas id="spendingChart"></canvas>
+            </div>
+
+            <div class="dashboard-card">
+                <h3>💬 AI Financial Therapy</h3>
+                <button onclick="window.location.href='chatbot.html'">Start Chat</button>
+            </div>
+
+            <div class="dashboard-card">
+                <h3>📜 Message to Future Self</h3>
+                <button onclick="window.location.href='future-self.html'">Write a Note</button>
+            </div>
+
+            <div class="dashboard-card">
+                <h3>🎉 Guilt-Free Spending Zone</h3>
+                <button onclick="window.location.href='guilt-free.html'">Manage Budget</button>
+            </div>
+        </div>
+
+        <!-- Gamification & Leaderboard -->
+        <div class="dashboard-gamification">
+            <h3>🏆 Leaderboard</h3>
+            <ul id="leaderboard-list"></ul>
+        </div>
+    </div>
+</body>
+</html>

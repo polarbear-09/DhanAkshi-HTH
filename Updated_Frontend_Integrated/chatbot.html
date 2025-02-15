@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Financial Therapy Chatbot</title>
+    <link rel="stylesheet" href="styles/chatbot.css">
+    <script defer src="scripts/chatbot.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/js/all.min.js"></script>
+</head>
+<body>
+    <div class="chat-container">
+        <header class="chat-header">
+            <h2>💬 AI Financial Therapy</h2>
+            <button class="close-chat" onclick="window.location.href='dashboard.html'">
+                <i class="fas fa-times"></i>
+            </button>
+        </header>
+        <div class="chat-window" id="chatWindow">
+            <div class="bot-message intro">
+                <div class="bot-avatar">
+                    <img src="assets/bot-avatar.png" alt="AI Bot" width="40">
+                </div>
+                <div class="message-content">
+                    <p>Hey there! I'm your AI financial therapist. How can I help you today? 😊</p>
+                </div>
+            </div>
+        </div>
+        <div class="chat-input-area">
+            <input type="text" id="userInput" placeholder="Type your message..." autocomplete="off">
+            <button id="sendMessage"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+</body>
+</html>

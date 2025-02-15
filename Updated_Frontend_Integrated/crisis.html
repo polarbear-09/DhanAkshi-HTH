@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crisis Mode - Emergency Financial Support</title>
+    <link rel="stylesheet" href="styles/crisis.css">
+    <script defer src="scripts/crisis.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/js/all.min.js"></script>
+</head>
+<body>
+    <div class="crisis-container">
+        <header class="crisis-header">
+            <h2>🚨 Crisis Mode Activated</h2>
+            <button class="close-crisis" onclick="window.location.href='dashboard.html'">
+                <i class="fas fa-times"></i>
+            </button>
+        </header>
+        <div class="crisis-content">
+            <p>You're in a financial stress moment. Take a deep breath. We’re here to help.</p>
+            <div class="crisis-options">
+                <button class="breathing-exercise" onclick="startBreathingExercise()">🧘 Start Breathing Exercise</button>
+                <button class="lock-shopping" onclick="lockShoppingApps()">🔒 Lock Shopping Apps</button>
+                <button class="call-support" onclick="callSupport()">📞 Talk to Support</button>
+                <button class="return-dashboard" onclick="window.location.href='dashboard.html'">🏠 Return to Dashboard</button>
+            </div>
+            <div class="crisis-message">
+                <p>Remember: Impulse decisions fade. Your future self will thank you.</p>
+            </div>
+            <div id="breathing-animation" class="hidden">🌬️ Breathe in... Hold... Breathe out...</div>
+        </div>
+    </div>
+</body>
+</html>

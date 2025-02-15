@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wearable UI - Stress & Finance Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="wearable-ui.css">
+    <script defer src="wearable-ui.js"></script>
+</head>
+<body>
+
+    <div class="wearable-container">
+        <div class="wearable-screen">
+            <!-- Header -->
+            <div class="wearable-header">
+                <p>⌚ Mock Smartwatch</p>
+                <p id="time"></p>
+            </div>
+
+            <!-- Heart Rate & Stress Detection -->
+            <div class="heart-rate">
+                <h2>❤️ Heart Rate: <span id="heartRate">--</span> BPM</h2>
+                <p id="stress-level">Detecting stress...</p>
+            </div>
+
+            <!-- Spending Alert -->
+            <div class="spending-alert">
+                <h3>💸 Spending Status</h3>
+                <p id="spending-status">Analyzing...</p>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="wearable-buttons">
+                <button id="calmMode">🧘 Activate Calm Mode</button>
+                <button id="stopSpending">🚫 Block Spending</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

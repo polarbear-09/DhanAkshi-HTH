@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotional Spending Journal</title>
+    <link rel="stylesheet" href="styles/journal.css">
+    <script defer src="scripts/journal.js"></script>
+</head>
+<body>
+    <header class="journal-header">
+        <h1>📖 Emotional Spending Journal</h1>
+        <p>Track your emotions and spending patterns to improve financial habits.</p>
+    </header>
+    <main class="journal-container">
+        <section class="journal-entry">
+            <h2>📝 New Journal Entry</h2>
+            <label for="mood">How are you feeling? 😊</label>
+            <select id="mood">
+                <option value="happy">Happy 😊</option>
+                <option value="stressed">Stressed 😓</option>
+                <option value="impulsive">Impulsive 🛍️</option>
+                <option value="sad">Sad 😢</option>
+                <option value="anxious">Anxious 😰</option>
+            </select>
+            <label for="spending">What did you spend on?</label>
+            <input type="text" id="spending" placeholder="E.g., Coffee, Shopping, Electronics">
+            <label for="amount">How much did you spend? 💸</label>
+            <input type="number" id="amount" placeholder="Enter amount in ₹">
+            <label for="notes">Additional Notes</label>
+            <textarea id="notes" placeholder="Write your thoughts..."></textarea>
+            <button id="saveEntry">✅ Save Entry</button>
+        </section>
+        <section class="journal-entries">
+            <h2>📜 Previous Entries</h2>
+            <div id="entriesList">
+                <p>No entries yet. Start tracking now! 📝</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>💡 Pro Tip: Tracking emotions helps prevent impulse spending!</p>
+    </footer>
+</body>
+</html>
